@@ -15,6 +15,14 @@
 		39368FC11B81C15B00313F0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39368FC01B81C15B00313F0B /* Images.xcassets */; };
 		39368FC41B81C15B00313F0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39368FC21B81C15B00313F0B /* LaunchScreen.xib */; };
 		39368FD01B81C15B00313F0B /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39368FCF1B81C15B00313F0B /* MusicPlayerTests.m */; };
+		39368FDC1B81C17600313F0B /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39368FDA1B81C17600313F0B /* AVPlayerViewController.m */; };
+		39368FDD1B81C17600313F0B /* AVPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39368FDB1B81C17600313F0B /* AVPlayerViewController.xib */; };
+		39368FE01B81C22E00313F0B /* chupai.wav in Resources */ = {isa = PBXBuildFile; fileRef = 39368FDE1B81C22E00313F0B /* chupai.wav */; };
+		39368FE11B81C22E00313F0B /* 北京北京.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39368FDF1B81C22E00313F0B /* 北京北京.mp3 */; };
+		39368FE31B81C2FA00313F0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39368FE21B81C2FA00313F0B /* AVFoundation.framework */; };
+		3951F4601B81D49200E0EA48 /* 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3951F45F1B81D49200E0EA48 /* 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg */; };
+		3951F4631B81D53200E0EA48 /* 春天里.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3951F4611B81D53200E0EA48 /* 春天里.mp3 */; };
+		3951F4641B81D53200E0EA48 /* 像梦一样自由.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3951F4621B81D53200E0EA48 /* 像梦一样自由.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,15 @@
 		39368FC91B81C15B00313F0B /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39368FCE1B81C15B00313F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39368FCF1B81C15B00313F0B /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
+		39368FD91B81C17600313F0B /* AVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
+		39368FDA1B81C17600313F0B /* AVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
+		39368FDB1B81C17600313F0B /* AVPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVPlayerViewController.xib; sourceTree = "<group>"; };
+		39368FDE1B81C22E00313F0B /* chupai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chupai.wav; sourceTree = "<group>"; };
+		39368FDF1B81C22E00313F0B /* 北京北京.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "北京北京.mp3"; sourceTree = "<group>"; };
+		39368FE21B81C2FA00313F0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3951F45F1B81D49200E0EA48 /* 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg; sourceTree = "<group>"; };
+		3951F4611B81D53200E0EA48 /* 春天里.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春天里.mp3"; sourceTree = "<group>"; };
+		3951F4621B81D53200E0EA48 /* 像梦一样自由.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "像梦一样自由.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39368FE31B81C2FA00313F0B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 		39368FA41B81C15B00313F0B = {
 			isa = PBXGroup;
 			children = (
+				39368FE21B81C2FA00313F0B /* AVFoundation.framework */,
 				39368FAF1B81C15B00313F0B /* MusicPlayer */,
 				39368FCC1B81C15B00313F0B /* MusicPlayerTests */,
 				39368FAE1B81C15B00313F0B /* Products */,
@@ -83,10 +102,18 @@
 		39368FAF1B81C15B00313F0B /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				39368FDE1B81C22E00313F0B /* chupai.wav */,
+				39368FDF1B81C22E00313F0B /* 北京北京.mp3 */,
+				3951F4611B81D53200E0EA48 /* 春天里.mp3 */,
+				3951F4621B81D53200E0EA48 /* 像梦一样自由.mp3 */,
+				3951F45F1B81D49200E0EA48 /* 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg */,
 				39368FB41B81C15B00313F0B /* AppDelegate.h */,
 				39368FB51B81C15B00313F0B /* AppDelegate.m */,
 				39368FBA1B81C15B00313F0B /* ViewController.h */,
 				39368FBB1B81C15B00313F0B /* ViewController.m */,
+				39368FD91B81C17600313F0B /* AVPlayerViewController.h */,
+				39368FDA1B81C17600313F0B /* AVPlayerViewController.m */,
+				39368FDB1B81C17600313F0B /* AVPlayerViewController.xib */,
 				39368FBD1B81C15B00313F0B /* Main.storyboard */,
 				39368FC01B81C15B00313F0B /* Images.xcassets */,
 				39368FC21B81C15B00313F0B /* LaunchScreen.xib */,
@@ -171,6 +198,7 @@
 				TargetAttributes = {
 					39368FAC1B81C15B00313F0B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RDHXPDSZT8;
 					};
 					39368FC81B81C15B00313F0B = {
 						CreatedOnToolsVersion = 6.4;
@@ -204,7 +232,13 @@
 			files = (
 				39368FBF1B81C15B00313F0B /* Main.storyboard in Resources */,
 				39368FC41B81C15B00313F0B /* LaunchScreen.xib in Resources */,
+				39368FE11B81C22E00313F0B /* 北京北京.mp3 in Resources */,
+				3951F4601B81D49200E0EA48 /* 9c16fdfaaf51f3de96f0e51592eef01f3a297904.jpg in Resources */,
+				39368FDD1B81C17600313F0B /* AVPlayerViewController.xib in Resources */,
+				39368FE01B81C22E00313F0B /* chupai.wav in Resources */,
 				39368FC11B81C15B00313F0B /* Images.xcassets in Resources */,
+				3951F4631B81D53200E0EA48 /* 春天里.mp3 in Resources */,
+				3951F4641B81D53200E0EA48 /* 像梦一样自由.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39368FDC1B81C17600313F0B /* AVPlayerViewController.m in Sources */,
 				39368FB61B81C15B00313F0B /* AppDelegate.m in Sources */,
 				39368FB91B81C15B00313F0B /* MusicPlayer.xcdatamodeld in Sources */,
 				39368FBC1B81C15B00313F0B /* ViewController.m in Sources */,
@@ -353,9 +388,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,6 +463,7 @@
 				39368FD51B81C15B00313F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39368FD61B81C15B00313F0B /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +472,7 @@
 				39368FD81B81C15B00313F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

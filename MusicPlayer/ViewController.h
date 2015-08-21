@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AVPlayerViewController.h"
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController
 
 
